@@ -32,6 +32,12 @@ a {
   color: $main-color;
 }
 
+header {
+  position: fixed;
+  z-index: 1;
+  background: cyan;
+}
+
 h1 {
   margin-top: 42px;
   color: $main-color;
@@ -51,7 +57,9 @@ h1 {
 .pic1 {
   margin-top: 27px;
   margin-right: 40px;
+  width: 100%;
 }
+
 h2 {
   display: flex;
   margin-top: 10px;
@@ -109,4 +117,90 @@ h2 {
 h3 {
   margin-top: -15px;
   margin-left: 25px;
+}
+
+.left {
+  width: 760px;
+}
+
+.left img {
+  margin-top: 30px;
+  width: 758px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right img {
+  width: 362px;
+  height: 212px;
+  display: flex;
+  margin-left: 850px;
+  margin-top: 103px;
+}
+
+.right {
+  margin-top: -990px;
+}
+
+img {
+  background-position: center;
+}
+
+.box4 {
+  @include mybox2;
+  margin-top: 100px;
+  margin-left: -140px;
+}
+
+.first {
+  margin-left: 137px;
+  padding-top: 59px;
+  width: 150px;
+}
+
+h5 {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  color: $forth-color;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.second {
+  margin-left: 380px;
+  margin-top: -114px;
+  width: 150px;
+}
+
+.third {
+  margin-left: 650px;
+  width: 150px;
+  margin-top: -114px;
+}
+
+h6 {
+  color: $second-color;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.forth {
+  display: flex;
+  margin-left: 1100px;
+  margin-top: -100px;
+}
+
+.geolab {
+  vertical-align: middle;
+  margin-top: -8px;
+  margin-left: 416px;
 }

@@ -8,5 +8,12 @@
 @mixin myBox {
   max-width: $boxMaxWidth;
   height: 180px;
-  width: 362px;
+  width: 426px;
+}
+
+@mixin mybox2 {
+  max-width: $boxMaxWidth2;
+  width: 1905px;
+  height: 225px;
+  background-color: $third-color;
 }
